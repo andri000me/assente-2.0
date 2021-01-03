@@ -1,0 +1,345 @@
+html, body{
+    background-color:#fff ;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navlog{
+    background-color: #e0501b;
+    /*width: 120px;*/
+    margin-top: 0px;
+    margin-right: 30px;
+    padding: 8px 18px 8px 33px;
+    border-radius: 45px;
+}
+
+.nav .links a{
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    
+}
+
+.nav .links .mainlink{
+    color: #e0501b;
+}
+
+.nav img{
+    width: 170px;
+    margin-left: 25px;
+    
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw 0 5vw;
+    height: 100vh;
+    
+}
+
+.profil img{
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 200px;
+    display: inline;
+}
+
+.profdesc{
+    margin-left: 300px;
+    margin-top: -170px;
+}
+.profdesc h2{
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.profdesc p{
+    color: gray;
+    margin-top: 14px;
+    font-size: 17px;
+}
+
+.kelas{
+    background-color: #DCDCDC;
+    margin-top: 110px;
+    height: 700px;
+}
+
+.kelas h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.generate{
+    background-color: white;
+    height: 200px;
+    margin-right: 1050px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+}
+
+.panelgen{
+    background-color: #4481eb;
+    height: 130px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.panelgen h3{
+    font-size: 20px;
+    color: white;
+}
+
+.panelgen h5{
+    margin-top: 10px;
+    color: white;
+}
+
+.landingText h1{
+    font-size: 4vw;
+    margin: 0 !important;
+    
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 19px;
+    opacity: 0.4;
+    line-height: 30px;
+    
+}
+
+.landingText .btn{
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    border-radius: 45px;
+}
+
+.landingText .btn a{
+    font-size: 1vw;
+    color: #fff;
+    padding-left: 13px;
+}
+
+.landingImage img{
+    width: 40vw;
+    position: relative;
+    top: 25px;
+    right: 3px;
+    
+    
+}
+
+/*ABOUT-ASSENTE*/
+
+.whoarewe h1{
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 2px;
+    font-size: 27px;
+}
+
+.whoarewe p{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: #585858;
+}
+
+.bannerD{
+    height: 280px;
+    background-color: #4481eb;
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.bannerTextD h1{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-left: 600px;
+    margin-top: 200px;
+    font-weight: bold;
+}
+
+.bannerTextD h3{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    margin-left: 600px;
+    position: relative;
+    top: -10px;
+}
+
+.bannerTextD p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 600px;
+    margin-right: 140px;
+}
+
+.bannerImgD img{
+    position: relative;
+    top: -190px;
+    left: 320px;
+    
+}
+
+.bannerTextM{
+    margin-top: 40px;
+    margin-right: 500px;
+    margin-left: 240px;
+    margin-top: 100px;
+}
+
+.bannerTextM h1{
+    font-size: 25px;
+    color: #313131;
+    font-weight: 600;
+    font-weight: bold;
+    text-align: right;
+}
+
+.bannerTextM h3{
+    font-size: 14px;
+    color: #313131;
+    opacity: 0.6;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.bannerTextM p{
+    font-size: 15px;
+    color: #313131;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.bannerImgM img{
+    margin-left: 830px;
+    margin-top: -180px;
+}
+
+.kontak h1 {
+    color: #484848;
+    margin-top: 80px;
+    margin-left: 850px;
+}
+
+.kontak h4{
+    color: #484848;
+    margin-left: 850px;
+    margin-bottom: 50px;
+}
+
+
+.sosmed h5{
+    font-size: 18px;
+    margin-left: 850px;
+}
+
+.sosmed a{
+    color: #484848;
+    margin-left: 850px;
+}
+
+.sosmed1 h5{
+    margin-top: -129px;
+    font-size: 18px;
+    margin-left: 1000px;
+}
+
+.sosmed1 a{
+    color: #484848;
+    margin-left: 1000px;
+}
+
+.sosmed2 h5{
+    margin-top: -129px;
+    font-size: 18px;
+    margin-left: 1160px;
+}
+
+.sosmed2 a{
+    color: #484848;
+    margin-top: 300px;
+    margin-left: 1160px;
+}
+
+
+
+.kontak img{
+    margin-top: -390px;
+    margin-left: 300px;
+    
+}
+
+.footer{
+    max-height: 100px;
+    margin-top: 80px;
+    background-color: #1D1D1D;
+}
+
+.copyright{
+    font-size: 15px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.footer h5{
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+
+
+
+
+
+

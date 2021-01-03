@@ -1,0 +1,196 @@
+
+.kolom-login {
+    background-color:white;
+    color:black;
+    width: 330px;
+    height: 400px;
+    top: 60%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.logonavbar {
+    width: 100px;
+}
+
+.gambarprofil {
+    width: 250px;
+
+    margin-left: -70px;
+    position: absolute;
+    margin-top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: myriad pro regular;
+}
+
+.kolom-login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: myriad pro regular;
+}
+.kolom-login .rememberme {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: myriad pro regular;
+}
+
+.kolom-login .checkbox {
+    height: 15px;
+    width: 15px;
+}
+
+.kolom-login input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+#login{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color:rgb(37, 73, 233);
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#login:hover {
+    background-color:rgb(0, 47, 255);
+    color: white;
+}
+
+
+
+body {
+    background-color: rgb(242, 242, 242);
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav .about {
+   margin-top: -100px;
+    margin-left: 1000px;
+}
+
+nav {
+    margin-top: -39px;
+    /*display: flex;*/
+    justify-content: center;
+    
+    align-items: center;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 15px 5%;
+}
+/*--
+nav ul {
+    display: flex;
+}
+*/
+nav ul li a {
+    margin-top: -100px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logout_button {
+    
+    color:rgb(235, 87, 87);
+}
+
+.nav .logo {
+    
+    font-family: Lato;
+    color: #3C64B1;
+    font-size: 22px;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+.text-container p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.text-container p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+
+.text-container p:nth-child(3) {
+    font-family: myriad pro regular;
+
+    font-size: 14px;
+    color: #000;
+    opacity: 0.6; 
+}
+
+h3{
+    margin: 6px !important;
+    font-size: 19px;
+    opacity: 0.4;
+    line-height: 30px;
+    font-family: myriad pro regular;
+    
+}
+
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
